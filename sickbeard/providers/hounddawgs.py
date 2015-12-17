@@ -22,7 +22,7 @@ from sickbeard import logger
 from sickbeard import tvcache
 from sickbeard.bs4_parser import BS4Parser
 from sickrage.helper.common import try_int
-from sickrage.providers.TorrentProvider import TorrentProvider
+from sickrage.providers.torrent import TorrentProvider
 
 
 class HoundDawgsProvider(TorrentProvider):  # pylint: disable=too-many-instance-attributes

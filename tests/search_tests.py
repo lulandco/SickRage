@@ -34,7 +34,7 @@ sys.path.insert(1, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')
 from sickbeard.tv import TVEpisode, TVShow
 import sickbeard
 import sickbeard.common as common
-from sickrage.providers.GenericProvider import GenericProvider
+from sickrage.providers import GenericProvider
 import tests.test_lib as test
 
 TESTS = {

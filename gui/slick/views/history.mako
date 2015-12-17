@@ -14,7 +14,7 @@
 
     from sickrage.show.History import History
     from sickrage.helper.encoding import ek
-    from sickrage.providers.GenericProvider import GenericProvider
+    from sickrage.providers import GenericProvider
 %>
 <%block name="content">
 <%namespace file="/inc_defs.mako" import="renderQualityPill"/>

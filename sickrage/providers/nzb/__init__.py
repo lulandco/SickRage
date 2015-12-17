@@ -22,7 +22,7 @@ from sickbeard import logger
 from sickbeard.classes import NZBSearchResult
 from sickrage.helper.common import try_int
 
-from sickrage.providers.GenericProvider import GenericProvider
+from sickrage.providers import GenericProvider
 
 
 class NZBProvider(GenericProvider):

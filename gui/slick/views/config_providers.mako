@@ -2,7 +2,7 @@
 <%!
     import sickbeard
     from sickbeard.helpers import anon_url
-    from sickrage.providers.GenericProvider import GenericProvider
+    from sickrage.providers import GenericProvider
 %>
 <%block name="scripts">
 <script type="text/javascript" src="${srRoot}/js/configProviders.js"></script>

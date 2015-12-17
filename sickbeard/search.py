@@ -39,7 +39,7 @@ from sickbeard import failed_history
 from sickbeard import common
 from sickrage.helper.encoding import ek
 from sickrage.helper.exceptions import AuthException, ex
-from sickrage.providers.GenericProvider import GenericProvider
+from sickrage.providers import GenericProvider
 
 
 def _downloadResult(result):

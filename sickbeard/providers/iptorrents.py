@@ -21,7 +21,7 @@ from sickbeard import logger
 from sickbeard import tvcache
 from sickbeard.bs4_parser import BS4Parser
 from sickrage.helper.exceptions import AuthException, ex
-from sickrage.providers.TorrentProvider import TorrentProvider
+from sickrage.providers.torrent import TorrentProvider
 
 
 class IPTorrentsProvider(TorrentProvider):

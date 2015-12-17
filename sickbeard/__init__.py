@@ -59,7 +59,7 @@ from sickbeard.providers.newznab import NewznabProvider
 
 from sickrage.helper.encoding import ek
 from sickrage.helper.exceptions import ex
-from sickrage.providers.GenericProvider import GenericProvider
+from sickrage.providers import GenericProvider
 from sickrage.system.Shutdown import Shutdown
 
 from configobj import ConfigObj

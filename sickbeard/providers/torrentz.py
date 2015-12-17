@@ -27,7 +27,7 @@ import sickbeard
 from sickbeard import logger
 from sickbeard import tvcache
 from sickbeard.common import cpu_presets
-from sickrage.providers.TorrentProvider import TorrentProvider
+from sickrage.providers.torrent import TorrentProvider
 
 
 class TORRENTZProvider(TorrentProvider):

@@ -28,7 +28,7 @@ from sickbeard import tvcache
 
 from sickrage.helper.encoding import ek
 from sickrage.helper.exceptions import ex
-from sickrage.providers.TorrentProvider import TorrentProvider
+from sickrage.providers.torrent import TorrentProvider
 
 
 class TorrentRssProvider(TorrentProvider):

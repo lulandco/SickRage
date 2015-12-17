@@ -27,7 +27,7 @@ from sickbeard.common import Quality
 from sickbeard.db import DBConnection
 from sickrage.helper.common import try_int
 from sickrage.helper.exceptions import ex
-from sickrage.providers.GenericProvider import GenericProvider
+from sickrage.providers import GenericProvider
 from sickrage.show.Show import Show
 
 

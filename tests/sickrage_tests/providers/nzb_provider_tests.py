@@ -33,8 +33,8 @@ sys.path.insert(1, os.path.abspath(os.path.join(os.path.dirname(__file__), '../.
 import sickbeard
 
 from generic_provider_tests import GenericProviderTests
-from sickrage.providers.GenericProvider import GenericProvider
-from sickrage.providers.NZBProvider import NZBProvider
+from sickrage.providers import GenericProvider
+from sickrage.providers.nzb import NZBProvider
 
 
 class NZBProviderTests(GenericProviderTests):

@@ -7,7 +7,7 @@
     from sickbeard import providers
     from sickbeard.common import SKIPPED, WANTED, UNAIRED, ARCHIVED, IGNORED, SNATCHED, SNATCHED_PROPER, SNATCHED_BEST, FAILED
     from sickbeard.common import Quality, qualityPresets, qualityPresetStrings, statusStrings, Overview
-    from sickrage.providers.GenericProvider import GenericProvider
+    from sickrage.providers import GenericProvider
 %>
 <%block name="content">
 % if not header is UNDEFINED:

@@ -26,7 +26,7 @@ import sickbeard
 from sickbeard import logger
 from sickbeard.common import Quality
 from sickrage.helper.common import try_int
-from sickrage.providers.GenericProvider import GenericProvider
+from sickrage.providers import GenericProvider
 
 
 def sendNZB(nzb, proper=False):
